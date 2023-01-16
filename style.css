@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
+/* Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+/* Reset */
 *{
     margin: 0px;
     padding: 0px;
@@ -11,6 +13,7 @@ html, body{
     min-height: 100vh;
 }
 
+/* Cabeçalho */
 header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
@@ -38,9 +41,11 @@ a{
 }
 
 a:hover{
+    cursor: pointer;
     text-decoration: underline;
 }
 
+/* Principal */
 main h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -62,17 +67,6 @@ section > p{
     padding-bottom: 2em;
 }
 
-iframe{
-    border: 1px solid white;
-}
-
-.quadrado{
-    display: inline-block;
-    margin-bottom: 10vh;
-    padding: 5px;
-    color: white;
-    background-color: rgba(49, 49, 49, 0.651);
-}
 #img01{
     background-size: cover;
     background-image: url('Imagens/background001.jpg');
@@ -84,10 +78,24 @@ iframe{
     background-position: center center;
 }
 
+li {
+    display: inline-block;
+    padding: 0px 5px;
+    margin: 10px 10px;
+}
+
 footer{
     font-size: 18px;
     padding: 10px;
     text-align: center;
     color: white;
     background-color: black;
+}
+
+.quadrado{
+    display: inline-block;
+    margin-bottom: 10vh;
+    padding: 5px;
+    color: white;
+    background-color: rgba(49, 49, 49, 0.651);
 }
